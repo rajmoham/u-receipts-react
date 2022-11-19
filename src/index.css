@@ -146,6 +146,7 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .highlight__title{
@@ -170,4 +171,34 @@ a{
   border-radius: 50%;
 }
 
+footer{
+  background-color: #242424;
+  padding: 32PX 0;
+}
 
+.footer__links{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__link{
+  margin-right: 16px;
+}
+
+.footer__link:hover{
+  text-decoration: underline;
+}
+
+.footer__link a{
+  color: white;
+}
+
+.btn{
+  background-color: #2CD89B;
+  border: 2px solid #18815c;
+  padding: 8px 16px;
+  color:  white;
+  color: 18px;
+  margin: 0 auto;
+}

@@ -11,7 +11,7 @@ function Navigation() {
                 </div>
                 <ul className="nav__links">
                     <li className="nav__link nav__hover--effect"><a href="/">Home</a></li>
-                    <li className="nav__link nav__hover--effect"><a href="/">About Us</a></li>
+                    <li className="nav__link nav__hover--effect"><a href="#highlights">About Us</a></li>
                     <li className="nav__link nav__link--anchor"><a href="/">Sign up</a></li>
                 </ul>
             </nav>
